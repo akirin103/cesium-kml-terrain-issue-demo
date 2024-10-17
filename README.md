@@ -28,6 +28,10 @@ cesium.js?v=c3a5bb9c:108503 Uncaught (in promise) TypeError: Cannot read propert
 
 https://github.com/user-attachments/assets/bd12219a-7fb8-45a2-8ac9-38300f05eec3
 
+I tested equivalent code in Cesium Sandcastle using the same sequence of actions, but the error did not occur there. 
+
+[sandcastle demo](https://sandcastle.cesium.com/#c=jZNBb9swDIX/CueTAwRyt9OwOkHbrKdmWIFk3cUXVWI8IbRkSLKDdOh/nxTbSdq6WI+myE/vPdHCaOehVbhDCzPQuIMFOtVU7OFQS4tEHL4XRnuuNNoimcLfQgN4tDZU7q1plUT7DfiOKz+MC4vc429jSa67xmu31yKdTAv9PLksdKEJPUju+co0VmC8vSE6nKy4loI7T8i4lGtj6JHbm8Z7o4OgtSlLQuixUQ+PaNg0WnhlNKSTTqHapJ0z9korqOCaa4FmM+i9JVK1M2pQO7T2KIB3SLMP2r6MlGdAcvhf4tkrvCdrAB7D/FBkdz+WcKu98vuY2khekH46vcjRughLYgKYTBlYS8NlJBVJpwFePmIv/K6i78dymOQyjDKWrXhVE8ajbFtRVsr6Hu2C18rzLxcXX9m2ejqB+4ROfBfNpWcSR2J9qfaXfqt3BGuxMi1eE6WjpvrNHAJPpknu/J5w3vUCXKmqNtZDYykNLj0Gl2ERXPbYiC16JpwbwHl2PppL1YKSs5H/DARx58LJJty+Uk9YJPM8C/1vRmO8Spc/W7TE97Htz+f5sisyxvIsfI5P+m5RXpH/AQ)
+
 ## Project Setup
 
 To set up the project locally, follow these steps:
