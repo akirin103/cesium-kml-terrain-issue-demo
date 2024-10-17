@@ -51,7 +51,18 @@ To set up the project locally, follow these steps:
     npm install
     ```
 
-4. Start the development server:
+4. Copy the example environment file
+    ```bash
+    cp .env.example .env
+    ```
+
+5. Update the environment file with your Cesium Ion access token.
+
+    ```
+    VITE_CESIUM_ION_ACCESS_TOKEN=your_cesium_ion_access_token_here
+    ```
+
+6. Start the development server:
     ```bash
     npm run dev
     ```
