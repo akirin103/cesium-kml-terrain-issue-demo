@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { EllipsoidTerrainProvider, Viewer, createWorldTerrainAsync, KmlDataSource } from 'cesium';
-import { onMounted, ref } from 'vue';
+import { onMounted, ref, shallowRef } from 'vue';
 
 const kmlPath = 'https://raw.githubusercontent.com/CesiumGS/cesium/main/Apps/SampleData/kml/gdpPerCapita2008.kmz';
 
-const viewer = ref<Viewer | null>()
+const viewer = shallowRef<Viewer | null>()
 
 const terrainOn = ref(false)
 const kmlOn = ref(false)
